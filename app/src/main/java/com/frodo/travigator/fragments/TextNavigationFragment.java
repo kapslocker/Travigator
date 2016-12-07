@@ -28,9 +28,6 @@ import org.greenrobot.eventbus.Subscribe;
 
 import java.util.HashMap;
 
-/**
- * Created by durgesh on 5/10/16.
- */
 public class TextNavigationFragment extends Fragment {
 
     private ListView stopsList ;
@@ -117,8 +114,6 @@ public class TextNavigationFragment extends Fragment {
             return true;
         }
     };
-
-
     @Subscribe
     public void onLocationChangedEvent(LocationChangedEvent event) {
         LatLng latLng = event.getLocation();

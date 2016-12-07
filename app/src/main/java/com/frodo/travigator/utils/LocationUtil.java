@@ -319,4 +319,3 @@ public class LocationUtil implements GoogleApiClient.ConnectionCallbacks,
         return locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER) ;
     }
 }
-
